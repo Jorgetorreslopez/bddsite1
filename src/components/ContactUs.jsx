@@ -5,6 +5,7 @@ import {
     Textarea
 } from "@material-tailwind/react";
 import { PageTitle } from "@/widgets/layout";
+import toast from 'react-hot-toast'
 
 function ContactUs() {
 
@@ -17,22 +18,53 @@ function ContactUs() {
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3001/api/contact', {
+      const response = fetch('http://localhost:3001/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
       });
-      if (response.ok) {
-        console.log('Message sent successfully');
-        setFormData({ name: '',
-        email: '',
-        message: ''})
-      } else {
-        // Handle error
-        console.error('Error sending message');
-      }
+
+      toast.promise(
+        response,
+        {
+          loading: 'Sending email...',
+          success: () => {
+            setFormData({ name: '',
+              email: '',
+              message: ''})
+            return 'Email sent!'
+          },
+          error: (err) => `Email not sent: ${err.toString()}`,
+        },
+        {
+          style: {
+            minWidth: '250px',
+            // backgroundColor: '#333', 
+            // color: '#fff', 
+            border: '1px solid #fff', 
+            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.7)', 
+            fontSize: '16px', 
+            fontWeight: 'bold',
+          },
+          success: {
+            duration: 4000,
+            icon: '✅',
+
+          },
+          error: {
+            duration: 4000,
+            icon: '❌',
+
+          },
+          position: "bottom-right",
+          ariaProps: {
+            role: "status",
+            "aria-live": "polite"
+          }
+        }
+      );
     } catch (error) {
       console.error('Error:', error);
     }

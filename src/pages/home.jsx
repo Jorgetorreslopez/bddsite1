@@ -15,6 +15,7 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 import ContactUs from "@/components/ContactUs";
+import toast, {Toaster} from 'react-hot-toast'
 
 export function Home() {
   return (
@@ -139,6 +140,7 @@ export function Home() {
             ))}
           </div>
           <ContactUs/>
+          <Toaster/>
         </div>
       </section>
       <div className="bg-white">
