@@ -9,7 +9,6 @@ export const projectData = [
     image: "/path/to/project2.jpg",
     link: "/project2",
   },
-  // Add more projects as needed
 ];
 
 
