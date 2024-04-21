@@ -5,7 +5,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer, PageTitle } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
-import { featuresData, teamData, projectData } from "@/data";
+import { featuresData, teamData, contactData } from "@/data";
 import {
   Avatar,
   Card,
@@ -35,7 +35,7 @@ export function Profile() {
           Custom Website Development Experts
           </Typography>
           <Typography variant="lead" color="white" className="opacity-80">
-            At Bio Dynamic Development, we are a team of passionate web developers dedicated to creating stunning, high-performance websites tailored to our clients' unique needs. With experience and expertise in the latest web technologies, we craft custom solutions that not only look modern but also deliver exceptional user experiences.
+            At Brotherhood's Design Development, we are a team of passionate web developers dedicated to creating stunning, high-performance websites tailored to our clients' unique needs. With experience and expertise in the latest web technologies, we craft custom solutions that not only look modern but also deliver exceptional user experiences.
           </Typography>
         </div>
     </div>
