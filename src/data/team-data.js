@@ -1,77 +1,69 @@
 export const teamData = [
   {
-    img: "/img/team-1.jpg",
-    name: "Ryan Tompson",
-    position: "Web Developer",
+    img: "/img/Jamal.jpg",
+    name: "Jamal Mayon",
+    position: "Co-founder and Developer",
     socials: [
       {
-        color: "light-blue",
-        name: "twitter",
+        color: "black",
+        name: "github",
+        url: "https://github.com/jmlmx"
       },
       {
         color: "blue",
         name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        url: "https://www.linkedin.com/in/jamalmayon/"
       },
     ],
   },
   {
-    img: "/img/team-2.jpg",
-    name: "Romina Hadid",
-    position: "Marketing Specialist",
+    img: "/img/Jorge.jpeg",
+    name: "Jorge Lopez",
+    position: "Co-founder and Developer",
     socials: [
       {
-        color: "light-blue",
-        name: "twitter",
+        color: "black",
+        name: "github",
+        url: "https://github.com/Jorgetorreslopez"
       },
       {
         color: "blue",
         name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        url: "https://www.linkedin.com/in/jorgeeduardotorreslopez/"
       },
     ],
   },
   {
-    img: "/img/team-3.jpg",
-    name: "Alexa Smith",
-    position: "UI/UX Designer",
+    img: "/img/Joezari.jpg",
+    name: "Joezari Borlongan",
+    position: "Co-founder and Developer",
     socials: [
       {
-        color: "light-blue",
-        name: "twitter",
+        color: "black",
+        name: "github",
+        url: "https://github.com/joe-bor"
       },
       {
         color: "blue",
         name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        url: "https://www.linkedin.com/in/joe-bor/"
       },
     ],
   },
   {
-    img: "/img/team-4.png",
-    name: "Jenna Kardi",
-    position: "Founder and CEO",
+    img: "/img/Avary.jpeg",
+    name: "Avary Mitchell",
+    position: "Co-founder and Developer",
     socials: [
       {
-        color: "light-blue",
-        name: "twitter",
+        color: "black",
+        name: "github",
+        url: "https://github.com/Anmitchell"
       },
       {
         color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/avary-mitchell-6b493612a/"
       },
     ],
   },
