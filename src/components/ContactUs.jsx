@@ -77,20 +77,56 @@ const handleSubmit = async (e) => {
 
   return (
     <>
-    <PageTitle section="Contact Us" heading="Want to work with us?">
-            Complete this form and we will get back to you in 24 hours.
-          </PageTitle>
-          <form className="mx-auto w-full mt-12 lg:w-5/12" onSubmit={handleSubmit}>
-            <div className="mb-8 flex gap-8">
-              <Input type="text" name="name" variant="outlined" size="lg" label="Full Name" value={formData.name} onChange={handleChange}/>
-              <Input variant="outlined" name="email" size="lg" label="Email Address" value={formData.email} onChange={handleChange} />
-            </div>
-            <Textarea variant="outlined" name="message" size="lg" label="Message" rows={8} value={formData.message} onChange={handleChange}/>
-            <Button variant="gradient" size="lg" type="submit" className="mt-8" fullWidth>
-              Send Message
-            </Button>
-          </form>
+      <PageTitle section="Contact Us" heading="Want to work with us?">
+        Complete this form and we will get back to you in 24 hours.
+      </PageTitle>
+      <form className="mx-auto w-full mt-12 lg:w-5/12" onSubmit={handleSubmit}>
+        <div className="flex flex-col gap-4 sm:gap-8 md:flex-row">
+          <Input 
+            type="text" 
+            name="name" 
+            variant="outlined" 
+            size="lg" 
+            label="Full Name" 
+            value={formData.name} 
+            onChange={handleChange}
+            className="flex-1"  
+          />
+          <Input 
+            type="email"  
+            name="email" 
+            variant="outlined" 
+            size="lg" 
+            label="Email Address" 
+            value={formData.email} 
+            onChange={handleChange}
+            className="flex-1"  
+          />
+        </div>
+        <Textarea 
+          variant="outlined" 
+          name="message" 
+          size="lg" 
+          label="Message" 
+          rows={8} 
+          value={formData.message} 
+          onChange={handleChange}
+          className="mt-8"  
+        />
+        <Button 
+          variant="gradient" 
+          size="lg" 
+          type="submit" 
+          className="mt-8" 
+          fullWidth
+        >
+          Send Message
+        </Button>
+      </form>
     </>
   )
+  
 }
+
+
 export default ContactUs
