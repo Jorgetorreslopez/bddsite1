@@ -5,7 +5,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer, PageTitle } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
-import { featuresData, teamData, contactData } from "@/data";
+import { featuresData, teamData, projectData } from "@/data";
 import {
   Avatar,
   Card,
