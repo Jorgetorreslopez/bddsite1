@@ -78,9 +78,9 @@ const handleSubmit = async (e) => {
 
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center border-t-2 border-t-orange-100 items-center">
+    <div className="flex flex-col lg:flex-row justify-center border-t-2 border-t-orange-100 items-center pt-4">
       <div id="consultation" className="text-center lg:text-left lg:pl-6 lg:w-2/5 self-center">
-        <div className="flex flex-row justify-center gap-6 items-center">
+        <div className="flex flex-row justify-center gap-6 align-baseline">
           <div className="mb-6 inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
             <EnvelopeIcon className="h-8 w-8 text-white " />
           </div>
