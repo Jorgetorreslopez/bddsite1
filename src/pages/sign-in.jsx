@@ -696,39 +696,39 @@ export function SignIn() {
                            transform="rotate(180 1.41963 1.4202)"
                            fill="#000000"
                            />
-                     </svg>
+                    </svg>
                   </span>
-               </div>
+              </div>
             </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 transition duration-300 ease-in-out hover:scale-110">
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4 transition duration-300 ease-in-out hover:scale-110">
             <div
-               class="
-               bg-white
-               rounded-xl
-               relative
-               z-10
-               overflow-hidden
-               border border-primary border-opacity-20
-               shadow-pricing
-               py-10
-               px-8
-               sm:p-12
-               lg:py-10 lg:px-6
-               xl:p-12
-               mb-10
-               "
-               >
-               <span class="text-primary font-semibold text-lg block mb-4">
-               Scale
-               </span>
-               <h2 class="font-bold text-dark mb-5 text-[42px]">
+              class="
+              bg-white
+              rounded-xl
+              relative
+              z-10
+              overflow-hidden
+              border border-primary border-opacity-20
+              shadow-pricing
+              py-10
+              px-8
+              sm:p-12
+              lg:py-10 lg:px-6
+              xl:p-12
+              mb-10
+              "
+              >
+              <span class="text-primary font-semibold text-lg block mb-4">
+              Scale
+              </span>
+              <h2 class="font-bold text-dark mb-5 text-[42px]">
                   $1500
                   <span class="text-base text-body-color font-medium">
                   and then 500/mo.
                   </span>
-               </h2>
-               <p
+              </h2>
+              <p
                   class="
                   text-base text-body-color
                   pb-8
