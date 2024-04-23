@@ -27,8 +27,8 @@ export function SignIn() {
         </div>
       </div>
       <section
-   class="
-   bg-white
+  class="
+  bg-white
    pt-20
    lg:pt -[120px]
    pb-12
@@ -1034,7 +1034,6 @@ export function SignIn() {
       </div>
    </div>
 </section>
-
       <div className="bg-white">
         <Footer />
       </div>
