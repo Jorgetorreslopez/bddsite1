@@ -90,7 +90,7 @@ export function Navbar({ brandName, routes, action }) {
       >
         <div className="container mx-auto">
           {navList}
-          <a
+          {/* <a
             href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
             target="_blank"
             className="mb-2 block"
@@ -101,7 +101,7 @@ export function Navbar({ brandName, routes, action }) {
           </a>
           {React.cloneElement(action, {
             className: "w-full block",
-          })}
+          })} */}
         </div>
       </MobileNav>
     </MTNavbar>
@@ -110,16 +110,16 @@ export function Navbar({ brandName, routes, action }) {
 
 Navbar.defaultProps = {
   brandName: "Brotherhood's Design Development",
-  action: (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-    >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
-      </Button>
-    </a>
-  ),
+  // action: (
+  //   <a
+  //     href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+  //     target="_blank"
+  //   >
+  //     <Button variant="gradient" size="sm" fullWidth>
+  //       free download
+  //     </Button>
+  //   </a>
+  // ),
 };
 
 Navbar.propTypes = {
