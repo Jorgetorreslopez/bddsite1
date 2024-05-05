@@ -10,7 +10,16 @@ export function SignIn() {
     
     <>
 <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/background-3.png')] bg-cover bg-center" />
+         <video
+          className="absolute top-0 h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+        >
+          <source src="/img/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute top-0 h-full w-full bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -55,9 +64,6 @@ export function SignIn() {
                   >
                   Pricing Packages
                </h2>
-               <p class="text-base text-body-color">
-                  
-               </p>
             </div>
          </div>
       </div>
@@ -66,6 +72,7 @@ export function SignIn() {
             <div
                class="
                bg-white
+               shadow-xl
                rounded-xl
                relative
                z-10
@@ -104,13 +111,10 @@ export function SignIn() {
                      SSL Security Features
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
-                     All UI components
+                     Static Website
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
-                     Lifetime access
-                  </p>
-                  <p class="text-base text-body-color leading-loose mb-1">
-                  24/7 Customer Support
+                     5 Professional Domain-Based Emails
                   </p>
                </div>
                
@@ -385,6 +389,7 @@ export function SignIn() {
                class="
                bg-white
                rounded-xl
+               shadow-xl
                relative
                z-10
                overflow-hidden
@@ -422,7 +427,7 @@ export function SignIn() {
                      SSL Security Features
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
-                     Fully Integrated E-commerce Tools
+                     Basic E-commerce Tools
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
                      SEO Optimization
@@ -431,7 +436,10 @@ export function SignIn() {
                      10 Professional Domain Based Emails
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
-                     24/7 Customer Support
+                     Mobile Optimized Website
+                  </p>
+                  <p class="text-base text-body-color leading-loose mb-1">
+                     Basic Website Metrics
                   </p>
                </div>
                
@@ -706,6 +714,7 @@ export function SignIn() {
               class="
               bg-white
               rounded-xl
+              shadow-xl
               relative
               z-10
               overflow-hidden
@@ -736,7 +745,7 @@ export function SignIn() {
                   border-b border-[#F2F2F2]
                   "
                   >
-                  Perfect for companies who are in the midst of scaling rapidly and need a site to match that exponential growth.
+                  Perfect for companies who are in the midst of scaling rapidly and need a site to match that expansion.
               </p>
               <div class="mb-7">
                   <p class="text-base text-body-color leading-loose mb-1">
@@ -758,10 +767,7 @@ export function SignIn() {
                     SEO Optimization
                   </p>
                   <p class="text-base text-body-color leading-loose mb-1">
-                    Website Metrics
-                  </p>
-                  <p class="text-base text-body-color leading-loose mb-1">
-                  24/7 Customer Support
+                    Advanced Website Metrics
                   </p>
               </div>
               
